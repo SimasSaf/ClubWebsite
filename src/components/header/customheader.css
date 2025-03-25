@@ -1,0 +1,20 @@
+@import url('../../globalColors.css');
+
+.custom-header {
+    background-color: var(--color-darkGreen);
+    background-image: 
+
+    url('../../images/094.png');
+    padding: 16px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header-barFightImage {
+    max-width: 35rem;
+  }
+  
+  .header-shadowImage {
+    max-width: 100%;
+  }
+  
