@@ -9,6 +9,16 @@ import PhoneCaseSkeleton from "./images/phoneCaseSkeleton.png";
 import Logo from "./images/BarFightClub.png";
 import UnderConstruction from "./images/underConsturction.png";
 
+const tileWidth = 96; // in px (6rem)
+const tileHeight = 128; // in px (8rem)
+
+const screenWidth = window.innerWidth;
+const screenHeight = window.innerHeight;
+
+const cols = Math.ceil(screenWidth / tileWidth);
+const rows = Math.ceil(screenHeight / tileHeight);
+const totalTiles = cols * rows;
+
 function App() {
   return (
     <div>
@@ -35,7 +45,7 @@ function App() {
       </Card>
       </div> */}
       <div className="UnderConstructionBackground">
-        {[...Array(1000)].map((_, i) => (
+        {[...Array(totalTiles)].map((_, i) => (
           <img
             key={i}
             src={UnderConstruction}

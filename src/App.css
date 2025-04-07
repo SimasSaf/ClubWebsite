@@ -20,7 +20,7 @@ body,
 }
 
 .Logo {
-  max-width: 30rem;
+  max-width: 30%;
   height: auto;
   z-index: 2;
 }
@@ -32,8 +32,11 @@ body,
   width: 100vw;
   height: 100vh;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(6rem, 1fr));
-  grid-auto-rows: 8rem;
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(clamp(10rem, 10vw, 1rem), 1fr)
+  );
+  grid-auto-rows: clamp(12rem, 12vw, 12rem);
   justify-items: center;
   align-items: center;
   z-index: 1;
@@ -42,16 +45,36 @@ body,
 }
 
 .UnderConstruction {
-  max-width: 7rem;
+  width: 100%; /* fills the grid cell */
   height: auto;
 }
 
 .tiltLeft {
-  transform: rotate(-10deg);
+  animation: wobbleLeft 3s ease-in-out infinite;
 }
 
 .tiltRight {
-  transform: rotate(10deg);
+  animation: wobbleRight 2s ease-in-out infinite;
+}
+
+@keyframes wobbleLeft {
+  0%,
+  100% {
+    transform: rotate(-10deg);
+  }
+  50% {
+    transform: rotate(-5deg);
+  }
+}
+
+@keyframes wobbleRight {
+  0%,
+  100% {
+    transform: rotate(10deg);
+  }
+  50% {
+    transform: rotate(5deg);
+  }
 }
 
 /*
