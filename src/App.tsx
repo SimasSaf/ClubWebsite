@@ -35,7 +35,7 @@ function App() {
       </Card>
       </div> */}
       <div className="UnderConstructionBackground">
-        {[...Array(500)].map((_, i) => (
+        {[...Array(1000)].map((_, i) => (
           <img
             key={i}
             src={UnderConstruction}
