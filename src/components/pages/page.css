@@ -1,0 +1,34 @@
+@import url("../../fonts.css");
+@import url("../../globalColors.css");
+
+.pages-title {
+  font-family: "SecondaryFont", sans-serif;
+  color: var(--color-textLightYellow);
+  font-size: 2rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.pages-secondary-title {
+  font-family: "SecondaryFont", sans-serif;
+  color: var(--color-textLightYellow);
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+
+.pages-text {
+  text-align: justify;
+  text-justify: inter-word;
+  font-family: "TextFont", sans-serif;
+  color: var(--color-textLightGreen);
+  font-size: 1rem;
+  margin: 0;
+}
+
+.pages-text-title {
+  font-family: "SecondaryFont", sans-serif;
+  color: var(--color-textLightYellow);
+  font-size: 0.75rem;
+  margin: 0;
+  padding: 0;
+}

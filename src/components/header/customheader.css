@@ -1,20 +1,37 @@
-@import url('../../globalColors.css');
+@import url("../../globalColors.css");
 
-.custom-header {
-    background-color: var(--color-darkGreen);
-    background-image: 
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* background-image: linear-gradient(
+    to right,
+    var(--color-lightGreen),
+    var(--color-darkGreen),
+    var(--color-darkGreen),
+    var(--color-lightGreen)
+  ); */
+  text-align: left;
+  padding-left: 1rem;
+  /* padding-bottom: 0;
+  box-shadow: 0 2px 10px black; */
+  /* border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem; */
+}
 
-    url('../../images/094.png');
-    padding: 16px;
-    text-align: center;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  }
-  
-  .header-barFightImage {
-    max-width: 35rem;
-  }
-  
-  .header-shadowImage {
-    max-width: 100%;
-  }
-  
+.header-text {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.header-slogan {
+  font-family: "LogoFont", sans-serif;
+  color: var(--color-textLightGreen);
+  font-size: 5rem;
+}
+
+.header-bottom-bar {
+  /* height: 0.1rem;
+  background-color: var(--color-textLightYellow);
+  stroke: black; */
+}

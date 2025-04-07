@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "LogoFont";
+  src: url("./fonts/LogoFont.otf"
+  );
+}
+
+@font-face {
+  font-family: "SecondaryFont";
+  src: url("./fonts/SecondaryFont.otf"
+  );
+}
+
+@font-face {
+  font-family: "TextFont";
+  src: url("./fonts/TextFont.ttf"
+  );
+}

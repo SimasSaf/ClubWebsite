@@ -5,9 +5,12 @@ import ShadowImage from '../../images/094.png'
 
 const CustomHeader: React.FC = () => {
   return (
-    <header className="custom-header">
-      <img src={BarFighClubImage} className="header-barFightImage" />
-      <img src={ShadowImage} className='header-shadowImage' />
+    <header className="header">
+      <div className="header-text">
+      <img src={BarFighClubImage} className="header-logo" />
+      {/* <p className='header-slogan'> Hello</p> */}
+      </div>
+      <div className='header-bottom-bar'></div>
     </header>
   );
 };
