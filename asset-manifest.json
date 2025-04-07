@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.709d6865.css",
+    "main.css": "/static/css/main.e402467e.css",
     "main.js": "/static/js/main.ca703fbf.js",
     "static/media/underConsturction.png": "/static/media/underConsturction.e0398823e4ad6c5b0be1.png",
     "static/media/BarFightClub.png": "/static/media/BarFightClub.5b43c777259c7643fe08.png",
     "index.html": "/index.html",
-    "main.709d6865.css.map": "/static/css/main.709d6865.css.map",
+    "main.e402467e.css.map": "/static/css/main.e402467e.css.map",
     "main.ca703fbf.js.map": "/static/js/main.ca703fbf.js.map"
   },
   "entrypoints": [
-    "static/css/main.709d6865.css",
+    "static/css/main.e402467e.css",
     "static/js/main.ca703fbf.js"
   ]
 }
