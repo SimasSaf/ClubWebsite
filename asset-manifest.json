@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.e1f5593b.css",
-    "main.js": "/static/js/main.3b558f21.js",
+    "main.css": "/static/css/main.a96586e5.css",
+    "main.js": "/static/js/main.7e0c8280.js",
     "static/media/underConsturction.png": "/static/media/underConsturction.e0398823e4ad6c5b0be1.png",
     "static/media/BarFightClub.png": "/static/media/BarFightClub.5b43c777259c7643fe08.png",
     "index.html": "/index.html",
-    "main.e1f5593b.css.map": "/static/css/main.e1f5593b.css.map",
-    "main.3b558f21.js.map": "/static/js/main.3b558f21.js.map"
+    "main.a96586e5.css.map": "/static/css/main.a96586e5.css.map",
+    "main.7e0c8280.js.map": "/static/js/main.7e0c8280.js.map"
   },
   "entrypoints": [
-    "static/css/main.e1f5593b.css",
-    "static/js/main.3b558f21.js"
+    "static/css/main.a96586e5.css",
+    "static/js/main.7e0c8280.js"
   ]
 }
